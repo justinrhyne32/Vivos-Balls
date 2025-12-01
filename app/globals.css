@@ -1,0 +1,128 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --neon-green: #00ff88;
+  --electric-green: #39ff14;
+  --metallic: #c0c0c0;
+  --dark-bg: #0a0a0a;
+  --dark-surface: #1a1a1a;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: var(--dark-bg);
+  color: #ffffff;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  overflow-x: hidden;
+}
+
+/* Custom scrollbar */
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+::-webkit-scrollbar-track {
+  background: var(--dark-bg);
+}
+
+::-webkit-scrollbar-thumb {
+  background: var(--neon-green);
+  border-radius: 5px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: var(--electric-green);
+}
+
+/* Neon text glow effect */
+.neon-text {
+  text-shadow: 0 0 10px var(--neon-green), 0 0 20px var(--neon-green),
+    0 0 30px var(--neon-green);
+}
+
+/* Glow border effect */
+.glow-border {
+  border: 1px solid var(--neon-green);
+  box-shadow: 0 0 10px var(--neon-green), inset 0 0 10px var(--neon-green);
+}
+
+/* Parallax container */
+.parallax {
+  will-change: transform;
+}
+
+/* Smooth fade in */
+.fade-in {
+  opacity: 0;
+  animation: fadeIn 1s ease-in forwards;
+}
+
+@keyframes fadeIn {
+  to {
+    opacity: 1;
+  }
+}
+
+/* Slide in from left */
+.slide-in-left {
+  transform: translateX(-100px);
+  opacity: 0;
+  transition: transform 0.6s ease-out, opacity 0.6s ease-out;
+}
+
+.slide-in-left.visible {
+  transform: translateX(0);
+  opacity: 1;
+}
+
+/* Slide in from right */
+.slide-in-right {
+  transform: translateX(100px);
+  opacity: 0;
+  transition: transform 0.6s ease-out, opacity 0.6s ease-out;
+}
+
+.slide-in-right.visible {
+  transform: translateX(0);
+  opacity: 1;
+}
+
+/* Slide in from bottom */
+.slide-in-bottom {
+  transform: translateY(100px);
+  opacity: 0;
+  transition: transform 0.6s ease-out, opacity 0.6s ease-out;
+}
+
+.slide-in-bottom.visible {
+  transform: translateY(0);
+  opacity: 1;
+}
+
+/* Hover lift effect */
+.hover-lift {
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.hover-lift:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 20px 40px rgba(0, 255, 136, 0.3);
+}
+
+
+
