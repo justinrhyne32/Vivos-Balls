@@ -34,7 +34,7 @@ export default function OwnerInfo() {
       <div>
         <h2 className="text-3xl font-bold mb-4 text-white">Contact Information</h2>
         <p className="text-gray-400 mb-8">
-          Get in touch with us directly. We're here to help with any questions
+          Get in touch with us directly. We&apos;re here to help with any questions
           about our products or to discuss custom bulk orders.
         </p>
       </div>

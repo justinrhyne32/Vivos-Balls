@@ -9,7 +9,7 @@ export default function Contact() {
           Get In Touch
         </h1>
         <p className="text-xl text-gray-400 text-center mb-16">
-          Have questions? We'd love to hear from you
+          Have questions? We&apos;d love to hear from you
         </p>
         <div className="grid md:grid-cols-2 gap-12 max-w-6xl mx-auto">
           <OwnerInfo />

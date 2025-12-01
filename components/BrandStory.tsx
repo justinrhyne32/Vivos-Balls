@@ -48,7 +48,7 @@ export default function BrandStory() {
           transition={{ duration: 0.8, delay: 0.2 }}
           className="text-xl text-gray-400 text-center mb-16 max-w-3xl mx-auto"
         >
-          We're passionate about providing golfers with high-quality used golf
+          We&apos;re passionate about providing golfers with high-quality used golf
           balls that deliver exceptional performance without breaking the bank.
           Every ball is cleaned, inspected, and ready to help you play your best
           game.
