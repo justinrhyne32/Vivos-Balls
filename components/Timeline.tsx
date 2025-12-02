@@ -8,7 +8,7 @@ const timelineItems = [
     year: '2020',
     title: 'The Beginning',
     description:
-      "Vivo's Balls started with a simple idea: provide golfers with high-quality used golf balls at affordable prices.",
+      "Vivo&apos;s Balls started with a simple idea: provide golfers with high-quality used golf balls at affordable prices.",
   },
   {
     year: '2021',
@@ -26,7 +26,7 @@ const timelineItems = [
     year: '2024',
     title: 'Growing Community',
     description:
-      "Thousands of satisfied customers trust Vivo's Balls for their golf ball needs, from casual players to serious golfers.",
+      "Thousands of satisfied customers trust Vivo&apos;s Balls for their golf ball needs, from casual players to serious golfers.",
   },
 ]
 

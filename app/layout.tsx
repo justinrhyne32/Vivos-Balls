@@ -3,6 +3,7 @@ import './globals.css'
 import Navigation from '@/components/Navigation'
 import Footer from '@/components/Footer'
 import SpinWidget from '@/components/SpinWidget'
+import { Analytics } from '@vercel/analytics/react'
 
 export const metadata: Metadata = {
   title: "Vivo's Balls - Premium Used Golf Balls",
@@ -21,6 +22,7 @@ export default function RootLayout({
         <main>{children}</main>
         <Footer />
         <SpinWidget />
+        <Analytics />
       </body>
     </html>
   )
